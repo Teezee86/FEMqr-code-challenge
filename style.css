@@ -1,0 +1,46 @@
+
+:root {
+  font-size: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+ margin: 0;
+  padding: 0;
+}
+.bg--gray { 
+background-color: hsl(212, 45%, 89%);
+padding: 9em;
+}
+section {
+  background-color: white;
+  margin: 0px auto;
+  padding: 15px;
+  max-width: 300px;
+  border-radius: 20px; 
+
+.card__qr-image{
+  width: 18em;
+  border-radius: 10px;
+}
+h1,p {
+  text-align: center;
+  font-family: outfit; 
+}
+h1{ font-size: 1.4rem;}
+p{
+color: hsl(220, 15%, 55%);
+  font-size: .98rem;
+ padding: 8px 15px;
+}
+.attribution { 
+  font-size: 15px; text-align: center;
+ }
+
+  .attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+@media screen and {max-width: 375px} {
+section {max-width: 300px;}
