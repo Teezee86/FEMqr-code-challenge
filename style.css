@@ -1,54 +1,53 @@
-
 :root {
-  font-size: 15px;
+	font-size: 15px;
 }
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 html,
 body {
- margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+	max-height: 100vh;
 }
-.bg--gray { 
-background-color: hsl(212, 45%, 89%);
-margin: auto;
-padding: 9%;
+h1,
+p {
+	text-align: center;
+	font-family: outfit;
 }
-
+h1 {
+	font-size: 1.4rem;
+}
+p {
+	margin-top: -10px;
+	color: hsl(220, 15%, 55%);
+	font-size: 0.98rem;
+	padding: 8px 15px;
+}
+footer,
 section {
-  background-color: white;
-  margin: auto;
-  padding: 15px;
-  max-width: 300px;;
-  border-radius: 20px; 
-
+	background-color: hsl(0, 0, 100%);
 }
-.card__qr-image{
-  width: 100%;
-  border-radius: 10px;
+section {
+	background-color: white;
+	margin: auto;
+	padding: 15px;
+	max-width: 300px;
+	border-radius: 20px;
 }
-h1,p {
-  text-align: center;
-  font-family: outfit; 
+.bg--gray {
+	background-color: hsl(212, 45%, 89%);
+	margin: auto;
+	padding: 50px;
 }
-h1{ font-size: 1.4rem;}
-p{
-  margin-top: -10px;
-color: hsl(220, 15%, 55%);
-  font-size: .98rem;
- padding: 8px 15px;
+.card__qr-image {
+	width: 100%;
+	border-radius: 10px;
 }
-footer {
-  background-color: white;
-  height: 50px
+.attribution {
+	text-align: center;
+	font-size: 15px;
 }
-
-.attribution { 
-  text-align: center;
-  font-size: 15px; 
-}
-
-  .attribution a { 
-  color: hsl(228, 45%, 44%); 
+.attribution a {
+	color: hsl(228, 45%, 44%);
 }
