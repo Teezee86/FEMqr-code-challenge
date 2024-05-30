@@ -12,17 +12,20 @@ body {
 }
 .bg--gray { 
 background-color: hsl(212, 45%, 89%);
-padding: 9em;
+margin: auto;
+padding: 9%;
 }
+
 section {
   background-color: white;
-  margin: 0px auto;
+  margin: auto;
   padding: 15px;
-  max-width: 300px;
+  max-width: 300px;;
   border-radius: 20px; 
 
+}
 .card__qr-image{
-  width: 18em;
+  width: 100%;
   border-radius: 10px;
 }
 h1,p {
@@ -31,16 +34,21 @@ h1,p {
 }
 h1{ font-size: 1.4rem;}
 p{
+  margin-top: -10px;
 color: hsl(220, 15%, 55%);
   font-size: .98rem;
  padding: 8px 15px;
 }
+footer {
+  background-color: white;
+  height: 50px
+}
+
 .attribution { 
-  font-size: 15px; text-align: center;
- }
+  text-align: center;
+  font-size: 15px; 
+}
 
   .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
-@media screen and {max-width: 375px} {
-section {max-width: 300px;}
